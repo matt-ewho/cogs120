@@ -1,0 +1,13 @@
+{
+  "name": "TravelApp",
+  "description": "App for planning places to go",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "express3-handlebars": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }  
+}
