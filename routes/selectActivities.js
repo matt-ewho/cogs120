@@ -1,5 +1,7 @@
 exports.view = function(req, res){
-  res.render('selectActivities', {
-          // 
-  });
+	var cityName = req.params.city;
+	console.log("name is " + cityName);
+  	res.render('selectActivities', {
+  		'city': cityName,
+  	});
 };

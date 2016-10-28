@@ -21,28 +21,37 @@
 <body>
 
 	<div class="container">
-		<div class="jumbotron">
-<div class = "relative">
-					
-        <p>Where Would You Like to Go?
-
-		</p>
-			<select>
-			
-  				<option value="chooseacity">CHOOSE A CITY.</option>
-  				<option value="sanDiego">San Diego</option>
- 				<option value="irvine">Irvine</option>
- 		 		<option value="losAngeles">Los Angeles</option>
-  				<option value="sanFrancisco">San Francisco</option>
-  			
-			</select>
-      
-		
-        	<a href="/city/sandiego"><button class="btn btn-primary">Choose 3 activities</button></a>
-         
-      </p>
+		<div class="row">
+			<div class="col-xs-12 relative">
+				<p>Where Would You Like To Go?</p>
+				<div class="dropdown">
+				  	<button class="btn btn-default dropdown-toggle" type="button" id="cityDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+				    	Choose A City.
+				    	<span class="caret"></span>
+				  	</button>
+				  	<ul class="dropdown-menu" aria-labelledby="cityDropdown">
+				    	<li><a href="/city/sandiego">San Diego</a></li>
+				    	<li><a href="/city/irvine">Irvine</a></li>
+				    	<li><a href="/city/losangeles">Los Angeles</a></li>
+				    	<li><a href="/city/sanfrancisco">San Francisco</a></li>
+				  	</ul>
+				</div>
+			</div>
 		</div>
 	</div>
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+	  <div class="row">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="col-xs-12">
+		    <div class="row nav navbar-nav">
+		    	<div class="col-xs-3"><a href="/"><span class="glyphicon glyphicon-home"></span></a></div>
+		    	<div class="col-xs-3"></div>
+		    	<div class="col-xs-3"></div>
+		    	<div class="col-xs-3"></div>
+		    </div>
+	    </div>
+	  </div>
+	</nav>
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
