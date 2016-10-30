@@ -1,0 +1,28 @@
+body {
+  background-color: #72cffd;
+}
+
+body > .grid {
+  height: 100%;
+}
+
+#menu {
+	max-width: 450px;
+}
+
+.column {
+ 	max-width: 450px;
+}
+
+@media (max-width: 450px) {
+
+	#menu {
+		margin-right: 30px;
+		margin-left: 20px;
+	}
+
+	.column { 
+		margin-right: 20px; 
+	    margin-left: 20px;
+	}
+}

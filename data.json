@@ -1,0 +1,54 @@
+{
+	"outdoors" : [
+		{
+			"name"     : "Activity 1",
+			"img"      : "/images/bicycle.png",
+			"desc"     : "Description of Activity 1",
+			"lat"      : 32.8801,
+			"lag"      : -117.2340,
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "Activity 2",
+			"img"      : "/images/glass.png",
+			"desc"     : "Description of Activity 2",
+			"lat"      : 32.8566,
+			"lag"      : -117.2373,
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "Activity 3",
+			"img"      : "/images/wheel.png",
+			"desc"     : "Description of Activity 3",
+			"lat"      : 32.8619,
+			"lag"      : -117.2269,
+			"filters"  : ["family", "healthy"]
+		}
+	],
+	"nightlife" : [
+		{
+			"name"     : "Activity 1",
+			"img"      : "/images/location/of/img",
+			"desc"     : "Description of Activity 1",
+			"lat"      : 32.8801,
+			"lag"      : -117.2340,
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "Activity 2",
+			"img"      : "/images/location/of/img",
+			"desc"     : "Description of Activity 2",
+			"lat"      : 32.8566,
+			"lag"      : -117.2373,
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "Activity 3",
+			"img"      : "/images/location/of/img",
+			"desc"     : "Description of Activity 3",
+			"lat"      : 32.8619,
+			"lag"      : -117.2269,
+			"filters"  : ["family", "healthy"]
+		}
+	]
+}

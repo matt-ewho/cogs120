@@ -8,6 +8,7 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
+var login = require('./routes/login');
 var choose = require('./routes/choose');
 var selectActivities = require('./routes/selectActivities');
 var activities = require('./routes/activities');
@@ -38,9 +39,10 @@ if ('development' == app.get('env')) {
 // Add routes here
 // Example route
 // app.get('/users', user.list);
-app.get('/', choose.view);
+app.get('/', login.view);
+app.get('/choose', choose.view);
 app.get('/city/:city', selectActivities.view);
-app.get('/activities/:list', activities.view);
+app.get('/activities/:first/:second/:third', activities.view);
 app.get('/map/:route', map.view);
 
 http.createServer(app).listen(app.get('port'), function(){

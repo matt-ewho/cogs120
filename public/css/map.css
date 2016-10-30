@@ -1,0 +1,17 @@
+#map {
+  height: 400px;
+  width: 100%;
+ }
+
+body {
+  background-color: #72cffd;
+}
+
+body > .grid {
+  height: 100%;
+}
+
+.column { 
+	margin-right: 10px; 
+	margin-left: 10px;
+}
