@@ -1,53 +1,136 @@
+
 {
-	"outdoors" : [
+	"outdoor" : [
 		{
-			"name"     : "Activity 1",
+			"name"     : "Mt. Woodson Trial",
+			"img"      : "/images/hiking.png",
+			"desc"     : "Potato Chip Rock via Mt. Woodson Trail is a 6.9 mile heavily trafficked out 
+							and back trail located near Poway, CA that features a lake and is rated as moderate. 
+							The trail offers a number of activity options and is accessible year-round.
+			 				Dogs are also able to use this trail but must be kept on leash.",
+			"address"  : "Mount Woodson Trail, Poway, CA 92064",
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "East County San Diego",
 			"img"      : "/images/bicycle.png",
-			"desc"     : "Description of Activity 1",
-			"lat"      : 32.8801,
-			"lag"      : -117.2340,
+			"desc"     : "About an hour’s drive east of Downtown, Laguna Mountain sits at 6,000 feet above the sea
+							 on the edge of the Cleveland National Forest. Mountain bike through the Jeffrey Pineson
+							  one of several trails based on level of difficulty." ,
+			"address"  : "One Father Junipero Serra Trail, San Diego, CA 92119-1008",
 			"filters"  : ["family", "healthy"]
 		},
 		{
-			"name"     : "Activity 2",
-			"img"      : "/images/glass.png",
-			"desc"     : "Description of Activity 2",
-			"lat"      : 32.8566,
-			"lag"      : -117.2373,
-			"filters"  : ["family", "healthy"]
-		},
-		{
-			"name"     : "Activity 3",
-			"img"      : "/images/wheel.png",
-			"desc"     : "Description of Activity 3",
-			"lat"      : 32.8619,
-			"lag"      : -117.2269,
+			"name"     : "La Jolla Shores",
+			"img"      : "/images/surfing.png",
+			"desc"     : "La Jolla’s grandeur is nowhere more evident than along its coastline, where you'll find some of 
+							the most breathtaking beaches in California. Dramatic cliffs, sandy expanses and secluded coves,
+							 La Jolla offers a range of beaches to please everyone—whether your interest is sunbathing, swimming, 
+							 surfing... or seals!",
+			"address"      : "8300 Camino Del Oro, La Jolla, CA 92037",
 			"filters"  : ["family", "healthy"]
 		}
 	],
-	"nightlife" : [
+	"indoor" : [
 		{
-			"name"     : "Activity 1",
-			"img"      : "/images/location/of/img",
-			"desc"     : "Description of Activity 1",
-			"lat"      : 32.8801,
-			"lag"      : -117.2340,
+			"name"     : "AMC Mission Valley 20",
+			"img"      : "/images/movies.png",
+			"desc"     : "Enjoy a movie with a friend",
+			"address"  : " 1640 Camino Del Rio, North
+							San Diego, CA 92108 ",
 			"filters"  : ["family", "healthy"]
 		},
 		{
-			"name"     : "Activity 2",
-			"img"      : "/images/location/of/img",
-			"desc"     : "Description of Activity 2",
-			"lat"      : 32.8566,
-			"lag"      : -117.2373,
+			"name"     : "Kroc Center Ice",
+			"img"      : "/images/ice_skating.png",
+			"desc"     : "As the only year-round ice arena centrally located in the heart of San Diego, Kroc Center Ice 
+							offers public ice skating sessions, learn to skate and learn to play hockey classes, youth and
+							 adult hockey leagues, and figure skating.",
+			"address"  : "6737 University Ave, San Diego, CA 92115",
 			"filters"  : ["family", "healthy"]
 		},
 		{
-			"name"     : "Activity 3",
-			"img"      : "/images/location/of/img",
-			"desc"     : "Description of Activity 3",
-			"lat"      : 32.8619,
-			"lag"      : -117.2269,
+			"name"     : "Karaoke 101",
+			"img"      : "/images/karaoke.png",
+			"desc"     : "Karaoke 101 is proud to serve the great San Diego area with ten private karaoke rooms. Our customized 
+							karaoke program provides English, Mandarin, Cantonese and Taiwanese songs.",
+			"address"  : "7578 Clairemont Mesa Blvd, San Diego, CA 92111",
+			"filters"  : ["family", "healthy"]
+		}
+	],
+	"tourist activity" : [
+		{
+			"name"     : "San Diego Zoo",
+			"img"      : "/images/zoo.png",
+			"desc"     : "The San Diego Zoo is a zoo in Balboa Park, San Diego, California, housing over 3,700 animals of 
+							more than 650 species and subspecies.",
+			"address"  : "2920 Zoo Dr, San Diego, CA 92101",
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "Balboa Park",
+			"img"      : "/images/park.png",
+			"desc"     : "Balboa Park is a 1,200-acre urban cultural park in San Diego, California, United States.
+							In addition to open space areas, natural vegetation zones, green belts, gardens, and walking paths, 
+							it contains museums, several theaters, and the world-famous San Diego Zoo.",
+			"address"      : "1549 El Prado, San Diego, CA 92101",
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "SeaWorld San Diego",
+			"img"      : "/images/seaworld.png",
+			"desc"     : "SeaWorld San Diego is an animal theme park, oceanarium, outside aquarium, and marine mammal park,
+							 located in San Diego, California, United States.",
+			"address"  : "500 Sea World Dr, San Diego, CA 92109",
+			"filters"  : ["family", "healthy"]
+		}
+	],
+	"dining" : [
+		{
+			"name"     : "Phil's BBQ",
+			"img"      : "/images/bbq.png",
+			"desc"     : "Phil's BBQ is a barbeque restaurant that was founded by Phil Pace. In 1998, he opened it in the 
+							Mission Hills in San Diego, California and other areas. It has received positive reception both 
+							in terms of its reviews as well as its success.",
+			"address"  : "3750 Sports Arena Blvd, San Diego, CA 92110",
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "RB Sushi",
+			"img"      : "/images/sushi.png",
+			"desc"     : "Casual spot offering all-you-can-eat sushi, noodle soups & cooked fare, plus sake, wine & cocktails.",
+			"address"  : "3955 Fifth Ave #100, San Diego, CA 92103",
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "Manna BBQ",
+			"img"      : "/images/bbq.png",
+			"desc"     : "Big portions of table-grilled fare & familiar sides in a casual setting inside a strip mall.",
+			"address"  : "4428 Convoy St #210, San Diego, CA 92111",
+			"filters"  : ["family", "healthy"]
+		}
+	],
+	"shopping" : [
+		{
+			"name"     : "Fashion Valley",
+			"img"      : "/images/shopping",
+			"desc"     : "Fashion Valley Mall is an upscale, open-air shopping mall in Mission Valley in San Diego, California.",
+			"address"  : "7007 Friars Rd, San Diego, CA 92108",
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "Westfield Mission Valley",
+			"img"      : "/images/shopping",
+			"desc"     : "Westfield Mission Valley, formerly Mission Valley Center, is a shopping mall in Mission Valley area of San Diego, 
+							California, owned by The Westfield Group",
+			"address"  : "1640 Camino Del Rio N, San Diego, CA 92108",
+			"filters"  : ["family", "healthy"]
+		},
+		{
+			"name"     : "Westfield Horton Plaza",
+			"img"      : "/images/shopping",
+			"desc"     : "Find your favourite store and the newest shops for fashion, beauty, lifestyle and fresh food only at Westfield Horton Plaza.",
+			"address"  : "Horton Plaza, San Diego, CA 92101",
 			"filters"  : ["family", "healthy"]
 		}
 	]
